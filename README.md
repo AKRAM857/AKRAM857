@@ -1,19 +1,78 @@
-## Hi there 👋
+<div align="center">
 
-<h1 align="center">Hi 👋, I'm AKRAM KHOULID</h1>
-<h3 align="center">A 3rd year telecoms and networking student engineer at ensa safi, passionate with networking administration and Cloud Computing and Devops</h3>
+# Hi 👋, I'm Akram Khoulid
 
-- 🔭 I’m currently Transforming my home lab into a complex SDN environment using Open Virtual Switch **Building a Software Defined Private Cloud Gateway**
+### 3rd Year Networks & Telecommunications Engineering Student
+**École Nationale des Sciences Appliquées — Safi**
 
-- 👨‍💻 All of my projects are available at [https://github.com/AKRAM857?tab=overview&from=2026-04-01&to=2026-04-10](https://github.com/AKRAM857?tab=overview&from=2026-04-01&to=2026-04-10)
+*Passionate about Network Administration, Cloud Computing & DevSecOps*
 
-- 📫 How to reach me **a.khoulid3593@uca.ac.ma**
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/akram-khoulid-08aa4435a/)
+[![GitHub](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/AKRAM857)
+[![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:a.khoulid3593@uca.ac.ma)
 
-<h3 align="left">Connect with me:</h3>
-<p align="left">
-<a href="https://www.linkedin.com/in/akram-khoulid-08aa4435a/" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="akram-khoulid" height="30" width="40" /></a>
-</p>
+</div>
 
-<h3 align="left">Languages and Tools:</h3>
-<p align="left"> <a href="https://aws.amazon.com" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/amazonwebservices/amazonwebservices-original-wordmark.svg" alt="aws" width="40" height="40"/> </a> <a href="https://www.gnu.org/software/bash/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/gnu_bash/gnu_bash-icon.svg" alt="bash" width="40" height="40"/> </a> <a href="https://www.w3schools.com/css/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original-wordmark.svg" alt="css3" width="40" height="40"/> </a> <a href="https://flask.palletsprojects.com/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/pocoo_flask/pocoo_flask-icon.svg" alt="flask" width="40" height="40"/> </a> <a href="https://git-scm.com/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/git-scm/git-scm-icon.svg" alt="git" width="40" height="40"/> </a> <a href="https://www.w3.org/html/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original-wordmark.svg" alt="html5" width="40" height="40"/> </a> <a href="https://www.linux.org/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/linux/linux-original.svg" alt="linux" width="40" height="40"/> </a> <a href="https://www.python.org" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" alt="python" width="40" height="40"/> </a> <a href="https://www.sqlite.org/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/sqlite/sqlite-icon.svg" alt="sqlite" width="40" height="40"/> </a> </p>
+---
 
+## 🚀 About Me
+
+- 🔭 Currently building a **Software Defined Private Cloud Gateway** — transforming my home lab into a complex SDN environment using Open vSwitch
+- 🌱 Learning **Ansible**, **Docker**, and **offensive security** (bettercap, Wireshark)
+- 🎯 Career goal: **DevSecOps Engineer** — bridging networking, security and automation
+- 🧠 I learn by building real labs, breaking things, and understanding why they broke
+
+---
+
+## 🛠️ Skills & Tools
+
+### Networking
+![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)
+![OVS](https://img.shields.io/badge/Open_vSwitch-SDN-blue?style=for-the-badge)
+![DHCP](https://img.shields.io/badge/DHCP-isc--dhcp--server-informational?style=for-the-badge)
+![DNS](https://img.shields.io/badge/DNS-BIND9-green?style=for-the-badge)
+![Wireshark](https://img.shields.io/badge/Wireshark-1679A7?style=for-the-badge&logo=wireshark&logoColor=white)
+
+### DevOps & Automation
+![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
+![Bash](https://img.shields.io/badge/Bash-4EAA25?style=for-the-badge&logo=gnu-bash&logoColor=white)
+![Ansible](https://img.shields.io/badge/Ansible-EE0000?style=for-the-badge&logo=ansible&logoColor=white)
+
+
+### Cloud & Security
+![AWS](https://img.shields.io/badge/AWS-232F3E?style=for-the-badge&logo=amazon-aws&logoColor=white)
+![Kali](https://img.shields.io/badge/Kali_Linux-557C94?style=for-the-badge&logo=kali-linux&logoColor=white)
+![iptables](https://img.shields.io/badge/iptables-NAT_Firewall-red?style=for-the-badge)
+
+### Languages
+![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
+![Bash](https://img.shields.io/badge/Bash_Scripting-4EAA25?style=for-the-badge&logo=gnu-bash&logoColor=white)
+![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
+
+---
+
+## 📁 Featured Projects
+
+### 🔧 [Linux Router with DHCP, DNS & SDN](https://github.com/AKRAM857/Implementing-a-Linux-Router-with-DHCP-and-DNS-Services)
+> Ubuntu VM acting as a full router with isc-dhcp-server, BIND9 DNS, Open vSwitch VLANs, NAT masquerading and inter-VLAN routing for Kali Linux and Alpine Linux clients.
+- **Stack**: Ubuntu · OVS · BIND9 · iptables · VirtualBox
+- **Concepts**: SDN · DHCP · DNS · NAT · VLAN · Troubleshooting
+
+---
+
+## 📊 GitHub Stats
+
+<div align="center">
+
+![Akram's GitHub Stats](https://github-readme-stats.vercel.app/api?username=AKRAM857&show_icons=true&theme=dark&hide_border=true)
+![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=AKRAM857&layout=compact&theme=dark&hide_border=true)
+
+</div>
+
+---
+
+<div align="center">
+
+*"The best way to learn networking is to break it and fix it yourself."*
+
+</div>
