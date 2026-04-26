@@ -1,6 +1,3 @@
-
-
-
 # Hi 👋, I'm Akram Khoulid
 ### 3rd Year Networks & Telecommunications Engineering Student
 **École Nationale des Sciences Appliquées — Safi**
@@ -11,13 +8,11 @@
 [![GitHub](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/AKRAM857)
 [![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:a.khoulid3593@uca.ac.ma)
 
-
-
 ---
 
 ## 🚀 About Me
 
-- 🔭 Currently building a **Software Defined Private Cloud Gateway** — transforming my home lab into a complex SDN environment using Open vSwitch
+- 🔭 Currently building a **Wazuh SIEM Lab** — deployed XDR/SIEM on a custom SDN network, detected 44k+ brute force attacks from Kali Linux
 - 🌱 Learning **Ansible**, **Docker**, and **offensive security** (bettercap, Wireshark)
 - 🎯 Career goal: **DevSecOps Engineer** — bridging networking, security and automation
 - 🧠 I learn by building real labs, breaking things, and understanding why they broke
@@ -43,6 +38,7 @@
 ![DevSecOps](https://img.shields.io/badge/DevSecOps-222222?style=for-the-badge&logo=githubactions&logoColor=white)
 
 ### 🔐 Security
+![Wazuh](https://img.shields.io/badge/Wazuh-SIEM_XDR-blue?style=for-the-badge)
 ![IAM](https://img.shields.io/badge/IAM-Identity_%26_Access_Management-orange?style=for-the-badge&logo=amazon-aws&logoColor=white)
 ![Network Security](https://img.shields.io/badge/Network_Security-CC0000?style=for-the-badge&logo=fortinet&logoColor=white)
 ![Web Hardening](https://img.shields.io/badge/Web_Server_Hardening-4A90D9?style=for-the-badge&logo=nginx&logoColor=white)
@@ -72,19 +68,19 @@
 
 ---
 
+### 🔐 [Wazuh SIEM Lab — Threat Detection & Troubleshooting](https://github.com/AKRAM857/wazuh-siem-lab)
+> Complete Wazuh XDR/SIEM deployment on Ubuntu, monitoring a Kali Linux attack machine over a custom OVS/VLAN network. Simulated SSH brute force attack and detected 44,000+ alerts in the dashboard.
+
+- **Stack**: Wazuh v4.14.4 · Filebeat OSS 7.10.2 · OpenSearch · Ubuntu · Kali
+- **Concepts**: SIEM · XDR · Threat Detection · MITRE ATT&CK · Log Analysis · Troubleshooting
+
+---
+
 ## 📊 GitHub Stats
-
-
 
 ![Akram's GitHub Stats](https://github-readme-stats.vercel.app/api?username=AKRAM857&show_icons=true&theme=dark&hide_border=true)
 ![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=AKRAM857&layout=compact&theme=dark&hide_border=true)
 
-
-
 ---
 
-
-
-*"The best way to learn networking is to break it and fix it yourself."*
-
-
+*"The best way to learn is to break things, understand why they broke, and document everything."*
