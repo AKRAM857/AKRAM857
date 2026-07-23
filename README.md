@@ -2,195 +2,97 @@
 
 > **Building infrastructure from first principles.**
 
-I build secure infrastructure by combining Linux, networking, cloud technologies, and security practices into complete, production-inspired environments.
+I build secure infrastructure by combining Linux, networking, and security into production-inspired environments.
 
 Currently pursuing a degree in **Networks & Telecommunications Engineering at ENSA Safi**, I focus on understanding systems from the ground up—how they're built, how they communicate, how they fail, and how to secure them.
 
-Rather than treating projects as isolated exercises, I use them to explore real engineering concepts, document every important decision, and create resources that I can continuously refine as my knowledge grows.
+Rather than treating projects as isolated exercises, I use them to explore real engineering concepts, solve practical problems, and document the knowledge I gain throughout the process.
+
+---
 
 ## Engineering Philosophy
 
 I believe good infrastructure is built on understanding rather than memorization.
 
-Instead of learning technologies in isolation, I prefer to understand the principles behind them by building complete environments, troubleshooting real problems, and documenting every decision along the way.
+Instead of learning technologies in isolation, I prefer building complete environments where every component has a purpose and every design decision can be explained.
 
-My projects follow a consistent approach:
+My projects follow a simple philosophy:
 
-- Build from first principles rather than relying on abstraction.
-- Understand how every component interacts with the rest of the system.
-- Design security into the architecture instead of adding it later.
-- Document the implementation as thoroughly as the implementation itself.
+- Build from first principles.
+- Understand every layer of the system.
+- Design security into the architecture.
+- Document both implementation and reasoning.
 - Continuously improve existing projects as my knowledge grows.
 
-I don't collect technologies.
+> *I don't collect technologies. I build systems, understand them, and document the lessons learned.*
 
-I build complete systems, understand how they work, and document the lessons learned so they can be reproduced and improved.
+---
 
-## 📁 Engineering Portfolio
+# 📁 Featured Projects
 
-> Every project in this portfolio was built to explore real infrastructure concepts through hands-on implementation. Rather than treating projects as isolated exercises, I design complete environments, troubleshoot real-world problems, and document the entire engineering process.
+> These projects represent my current engineering portfolio. Each repository contains architecture diagrams, technical documentation, implementation details, and lessons learned.
 
 ---
 
 <details>
-<summary>
-
-### 🛡️ Zero Trust SSH Bastion
-*OpenSSH • ProxyJump • nftables • Zero Trust • Ubuntu Server*
-
-</summary>
+<summary><strong>🛡️ Zero Trust SSH Bastion</strong> — OpenSSH • ProxyJump • nftables • Zero Trust</summary>
 
 <br>
 
-> **A production-inspired SSH gateway that secures access to internal infrastructure using Zero Trust principles.**
+A production-inspired SSH architecture that secures access to internal infrastructure through a hardened Bastion Host instead of exposing servers directly.
 
-<p align="center">
-  <img src="images/bastion-architecture.png" alt="Zero Trust SSH Bastion Architecture" width="850">
-</p>
+### Highlights
 
-### Overview
+- Public Key Authentication
+- SSH ProxyJump
+- nftables Firewall
+- Zero Trust Architecture
+- Linux Hardening
 
-This project implements a production-inspired SSH architecture where administrative access to internal systems is performed through a hardened Bastion Host instead of exposing servers directly to the network.
-
-The environment was designed to explore SSH beyond basic remote access by implementing public key authentication, ProxyJump, firewall policies with **nftables**, and network segmentation following Zero Trust principles.
-
-### Architecture
-
-> *(Architecture diagram placeholder)*
-
-### Engineering Highlights
-
-| Category | Implementation |
-|-----------|----------------|
-| Authentication | SSH Public Key Authentication |
-| Secure Access | SSH ProxyJump |
-| Firewall | nftables |
-| Security Model | Zero Trust Architecture |
-| Operating System | Ubuntu Server |
-| Internal Host | Kali Linux |
-
-### Key Takeaways
-
-- Designed a secure SSH architecture inspired by production environments.
-- Hardened OpenSSH using public key authentication.
-- Built stateful firewall rules with nftables.
-- Applied Zero Trust principles to Linux infrastructure.
-- Troubleshot authentication, firewall, routing, and forwarding issues.
-- Produced detailed technical documentation covering the entire deployment.
-
-### Repository
-
-- 📂 **Repository:** https://github.com/yourusername/your-repository
-- 📖 **Documentation:** https://github.com/yourusername/your-repository/tree/main/docs
+📂 **Repository:** *(link)*
 
 </details>
 
 ---
 
 <details>
-<summary>
-
-### 🔍 Wazuh SIEM Security Monitoring Lab
-*Wazuh • Ubuntu • Kali Linux • Detection • Monitoring*
-
-</summary>
+<summary><strong>🔍 Wazuh SIEM Security Monitoring Lab</strong> — Wazuh • Ubuntu • Detection</summary>
 
 <br>
 
-> **A complete SIEM laboratory built to monitor Linux infrastructure, centralize logs, and improve security visibility.**
+A defensive security lab built to centralize logs, monitor Linux systems, and improve visibility across a small infrastructure using Wazuh SIEM.
 
-<p align="center">
-  <img src="images/wazuh-architecture.png" alt="Wazuh SIEM Architecture" width="850">
-</p>
+### Highlights
 
-### Overview
+- Wazuh SIEM
+- Agent-Based Monitoring
+- Log Collection
+- Event Analysis
+- Security Monitoring
 
-This project focuses on defensive security by deploying a complete Wazuh SIEM environment capable of collecting logs, monitoring Linux systems, and detecting suspicious activity across multiple hosts.
-
-The objective was to understand how security monitoring works in practice by building a centralized platform for visibility, analysis, and incident detection.
-
-### Architecture
-
-> *(Architecture diagram placeholder)*
-
-### Engineering Highlights
-
-| Category | Implementation |
-|-----------|----------------|
-| SIEM Platform | Wazuh |
-| Infrastructure | Ubuntu Server |
-| Monitored Endpoint | Kali Linux |
-| Monitoring | Agent-Based |
-| Security | Log Collection & Event Analysis |
-| Deployment | Linux Environment |
-
-### Key Takeaways
-
-- Deployed and configured a complete Wazuh SIEM environment.
-- Connected Linux agents for centralized monitoring.
-- Learned how security events are collected and analyzed.
-- Improved visibility into infrastructure activity.
-- Built practical experience with defensive security operations.
-
-### Repository
-
-- 📂 **Repository:** https://github.com/yourusername/your-repository
-- 📖 **Documentation:** https://github.com/yourusername/your-repository/tree/main/docs
+📂 **Repository:** *(link)*
 
 </details>
 
 ---
 
 <details>
-<summary>
-
-### 🌐 Linux Router & Network Infrastructure
-*Linux Routing • nftables • DHCP • DNS • Open vSwitch*
-
-</summary>
+<summary><strong>🌐 Linux Router & Network Infrastructure</strong> — Routing • DHCP • DNS • VLANs</summary>
 
 <br>
 
-> **A Linux server transformed into a complete network router to understand networking from first principles.**
+A Linux server configured as a complete network router to explore routing, firewalling, packet forwarding, and core network services from first principles.
 
-<p align="center">
-  <img src="images/router-architecture.png" alt="Linux Router Architecture" width="850">
-</p>
+### Highlights
 
-### Overview
+- Linux Routing
+- nftables
+- DHCP
+- Bind9 DNS
+- Open vSwitch
+- Network Segmentation
 
-This project transforms a Linux machine into a fully functional router responsible for forwarding traffic between isolated networks while providing essential infrastructure services.
-
-Instead of relying on dedicated networking appliances, the project explores how Linux performs routing, firewalling, packet forwarding, DHCP, DNS, NAT, and VLAN segmentation internally.
-
-### Architecture
-
-> *(Architecture diagram placeholder)*
-
-### Engineering Highlights
-
-| Category | Implementation |
-|-----------|----------------|
-| Routing | Linux IP Forwarding |
-| Firewall | nftables |
-| DHCP | ISC DHCP Server |
-| DNS | Bind9 |
-| VLANs | Open vSwitch |
-| Operating System | Ubuntu Server |
-
-### Key Takeaways
-
-- Understood how Linux makes routing decisions.
-- Configured packet forwarding between isolated networks.
-- Built firewall policies using nftables.
-- Deployed DHCP and DNS services.
-- Designed segmented network architectures using VLANs.
-- Troubleshot routing, NAT, firewall, and connectivity issues.
-
-### Repository
-
-- 📂 **Repository:** https://github.com/yourusername/your-repository
-- 📖 **Documentation:** https://github.com/yourusername/your-repository/tree/main/docs
+📂 **Repository:** *(link)*
 
 </details>
 
@@ -200,88 +102,83 @@ Instead of relying on dedicated networking appliances, the project explores how 
 
 ### 🐧 Linux Systems
 
-Ubuntu Server • Kali Linux • Users & Groups • Permissions • systemd • Package Management • Storage • Networking
-
----
+Ubuntu Server • Kali Linux • Users & Groups • Permissions • systemd • Storage • Package Management • Networking
 
 ### 🌐 Networking
 
-TCP/IP • IPv4 Addressing • Routing • DHCP • DNS (Bind9) • NAT • VLANs • Open vSwitch
-
----
+TCP/IP • IPv4 Addressing • Routing • NAT • DHCP • DNS (Bind9) • VLANs • Open vSwitch
 
 ### 🔐 Infrastructure Security
 
-OpenSSH • Public Key Authentication • ProxyJump • Bastion Hosts • nftables • Zero Trust
-
----
+OpenSSH • Public Key Authentication • ProxyJump • Bastion Hosts • Zero Trust • nftables • Linux Hardening
 
 ### 🛡️ Security Monitoring
 
 Wazuh SIEM • Linux Agents • Log Collection • Event Analysis
 
----
-
 ### 📦 Containers
 
 Docker • Docker Compose
 
----
+### 📖 Documentation
 
-### 📚 Documentation
-
-Architecture Diagrams • Technical Reports • Deployment Guides • Troubleshooting Documentation
+Technical Reports • Architecture Diagrams • Deployment Guides • Troubleshooting Documentation
 
 ---
 
 ## 🎯 Current Learning Journey
 
-I believe engineering is a continuous process of learning, experimenting, and refining. My roadmap reflects the areas I am currently exploring through practical projects and technical documentation.
+I believe engineering is a continuous process of learning through experimentation and practical implementation.
 
-### ✅ Foundations
+### Solid Foundations
 
 - Linux Administration
 - Networking Fundamentals
 - SSH & Infrastructure Security
 - Docker
-- Terraform
 - Wazuh SIEM
 
-### 🚧 Currently Exploring
+### Currently Exploring
 
 - Linux Privilege Escalation
 - Linux Security
-- Cloud Security
 - Infrastructure Hardening
+- Web Servers (Apache & Nginx)
 
-### 🎯 Next Objectives
+### Next Milestones
 
 - Kubernetes
 - Ansible
 - DevSecOps
 - Detection Engineering
-- AWS Professional Certifications
+- AWS
 
 ---
 
-## 📂 Repository Guide
+## 📚 Beyond Featured Projects
 
-If you're interested in exploring my work, I recommend starting with these repositories:
+In addition to my main repositories, I maintain a growing collection of smaller laboratories and experiments focused on understanding individual concepts in greater depth.
 
-| Repository | Description |
-|------------|-------------|
-| 🛡️ Zero Trust SSH Bastion | Secure SSH architecture built around Zero Trust principles. |
-| 🔍 Wazuh SIEM Lab | Centralized security monitoring and defensive security laboratory. |
-| 🌐 Linux Router & Network Infrastructure | Linux router providing routing, DHCP, DNS, VLANs, and firewalling. |
-| 🧪 Infrastructure Labs | A growing collection of focused experiments covering Linux, networking, and security concepts. |
+Topics include:
+
+- Linux Administration
+- SSH
+- nftables
+- Networking
+- Docker
+- Web Servers
+- Privilege Escalation
+- Security Experiments
+
+These repositories serve as an engineering notebook where I explore technologies from first principles before integrating them into larger projects.
 
 ---
 
 ## 🤝 Connect
 
-- 💼 LinkedIn: *(Add your LinkedIn URL)*
-- 📧 Email: *(your.email@example.com)*
+- 💼 LinkedIn: https://www.linkedin.com/in/akram-khoulid-08aa4435a/
+- 📧 Email: akramkhoulid47@gmail.com
 
 ---
 
-> *"Building infrastructure from first principles."*
+> **Building infrastructure from first principles.**
