@@ -1,19 +1,23 @@
-# Akram Khoulid
-
-**Networks & Telecom Engineering Student**  
-**Infrastructure Security & Systems Engineer**  
-ENSA Safi · Morocco
-
-I build secure infrastructure from scratch, harden it layer by layer, and document every decision.
+<div align="center">
+  <h1>Akram Khoulid</h1>
+  <p><strong>Networks & Telecom Engineering Student</strong><br>
+  Infrastructure Security & Systems Engineer • ENSA Safi</p>
+</div>
 
 ---
 
-## Flagship Projects
+### Build. Break. Understand.
 
-### Zero-Trust SSH Bastion Host Infrastructure
-**Flagship Project**
+I build secure infrastructure from scratch, harden it layer by layer, and document every decision. My work lives at the intersection of Linux systems, network security, and Zero-Trust architecture.
 
-A complete enterprise-grade secure access environment.
+---
+
+### Flagship Projects
+
+**Zero-Trust SSH Bastion Host Infrastructure**  
+*Flagship Project*
+
+A complete enterprise-grade secure access environment built in VirtualBox.
 
 - Hardened SSH with key-only authentication and ProxyJump
 - nftables stateful firewall with default-drop policy
@@ -25,59 +29,46 @@ A complete enterprise-grade secure access environment.
 
 **Technologies**: Ubuntu, OpenSSH, nftables, fail2ban, auditd
 
-[View Detailed Report & Diagrams →](bastion/)
+[View Full Project →](bastion-project)
 
 ---
 
-### Wazuh SIEM Lab — Threat Detection
-Complete Wazuh XDR/SIEM deployment for monitoring and response.
+**Wazuh SIEM Lab — Threat Detection**
 
-- Custom OVS/VLAN network with attack & defense machines
-- Simulated attacks and 44,000+ correlated alerts
-- MITRE ATT&CK mapping
+Complete Wazuh XDR deployment monitoring a Kali attack machine.
+
+- Custom OVS/VLAN network
+- 44,000+ alerts detected and correlated against MITRE ATT&CK
 
 **Technologies**: Wazuh, OpenSearch, Filebeat, Kali Linux
 
-[View Project →](wazuh-lab/)
+[View Project →](wazuh-lab)
 
 ---
 
-### Other Projects
-- **Linux Router**: DHCP, DNS, NAT, VLANs with Open vSwitch
-- **Secure Services Platform**: Web, Proxy, SFTP, Monitoring
-- More in progress...
-
----
-
-## Core Competencies
+### Core Competencies
 
 **Linux Administration**  
-Ubuntu Server • systemd • User & Group Management • RBAC • File Permissions • SUID/SGID • PAM • auditd
+Ubuntu • systemd • RBAC • File Permissions • SUID/SGID • PAM • auditd
 
 **Security & Hardening**  
-Zero-Trust • SSH Hardening • nftables • fail2ban • Least Privilege • Privilege Escalation Defense
+Zero-Trust • SSH Hardening • nftables • fail2ban • Least Privilege
 
 **Networking**  
-TCP/IP • Subnetting • Routing • VLANs • DHCP • DNS • NAT • Proxy (Squid)
+TCP/IP • Routing • VLANs • DHCP • DNS • NAT • Proxy (Squid)
 
-**Monitoring & Tools**  
-Wazuh SIEM • tcpdump • nmap • journalctl
-
----
-
-## Philosophy
-"Build. Break. Understand."
-
-I learn by breaking systems intentionally, documenting everything, and rebuilding stronger.
+**Monitoring**  
+Wazuh SIEM • Prometheus • Grafana
 
 ---
 
-## Connect
-- [LinkedIn](your-linkedin-link)
+### Let's Connect
+
+- [LinkedIn](your-linkedin)
 - [GitHub](https://github.com/AKRAM857)
 - Email: your.email@example.com
 
 ---
 
 *Third-year Networks & Telecom Engineering Student*  
-*Last updated: July 2026*
+*Built with focus and documentation • Last updated July 2026*
