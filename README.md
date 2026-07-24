@@ -70,7 +70,7 @@ A defensive security lab built to centralize logs, monitor Linux systems, and im
 - Event Analysis
 - Security Monitoring
 
-📂 **Repository:** *(link)*
+📂 **Repository:** *https://github.com/AKRAM857/Wazuh-Detection-Engineering-Lab*
 
 </details>
 
@@ -92,7 +92,7 @@ A Linux server configured as a complete network router to explore routing, firew
 - Open vSwitch
 - Network Segmentation
 
-📂 **Repository:** *(link)*
+📂 **Repository:** *https://github.com/AKRAM857/Implementing-a-Linux-Router-with-DHCP-and-DNS-Services*
 
 </details>
 
