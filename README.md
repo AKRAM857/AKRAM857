@@ -49,7 +49,7 @@ A production-inspired SSH architecture that secures access to internal infrastru
 - Zero Trust Architecture
 - Linux Hardening
 
-📂 **Repository:** *(link)*
+📂 **Repository:** *https://github.com/AKRAM857/zero-trust-infrastructure*
 
 </details>
 
