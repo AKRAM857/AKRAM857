@@ -35,7 +35,7 @@ My projects follow a simple philosophy:
 ---
 
 <details>
-<summary><strong>🛡️ Zero Trust SSH Bastion Host</strong> — OpenSSH · ProxyJump · nftables · RBAC · fail2ban</summary>
+<summary><strong>🛡️ Secure-SSH-Bastion-Infrastructure </strong> — OpenSSH · ProxyJump · nftables · RBAC · fail2ban · Permissions · Groups · auditd</summary>
 
 <br>
 
@@ -130,12 +130,25 @@ I believe engineering is a continuous process of learning through experimentatio
 - Web Servers — Apache & Nginx
 - nftables & Firewall Design
 
-### Next Milestones
+### Next Milestone
 
-- Ansible
-- AWS
-- DevSecOps
-- Detection Engineering
+**Enterprise Core Infrastructure** — a self-contained production-inspired environment built around the services every company depends on.
+
+| Service | Purpose |
+|---|---|
+| DNS & DHCP | Internal name resolution and address management |
+| LDAP | Centralized identity and authentication |
+| PKI & CA | Internal certificate authority — HTTPS everywhere |
+| Reverse Proxy | Single entry point for internal services |
+| GitLab | Self-hosted source control and CI/CD |
+| Monitoring | Infrastructure observability |
+| Logging | Centralized log aggregation |
+| Backups | Automated backup policy |
+| Automation | Configuration management across all services |
+
+Every service integrates with the others. LDAP authenticates GitLab. PKI signs certificates for HTTPS. The reverse proxy fronts everything. Monitoring watches it all.
+
+The same methodology as the bastion project — built from first principles, every decision documented.
 
 ---
 
