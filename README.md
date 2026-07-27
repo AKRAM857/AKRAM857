@@ -107,7 +107,7 @@ A Linux server configured as a complete software-defined network router. Built t
 | Networking | TCP/IP · NAT · VLAN · DHCP · DNS · Open vSwitch · Netfilter · stateful inspection |
 | Monitoring | Wazuh XDR · SIEM · MITRE ATT&CK · log analysis · threat detection |
 | Containers | Docker · Docker Compose |
-| Documentation | 70+ page technical reports · architecture diagrams · troubleshooting logs |
+| Documentation | 100+ page technical reports · architecture diagrams · troubleshooting logs |
 
 ---
 
