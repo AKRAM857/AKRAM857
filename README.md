@@ -60,7 +60,7 @@ Every architectural decision is documented with its security reasoning — not j
 ---
 
 <details>
-<summary><strong>🛡️ Infrastructure Security Automation Framework</strong> — Ansible · nftables · Jinja2 · Linux Hardening · Threat Modeling · Infrastructure as Code</summary>
+<summary><strong>🛡️ Multi-Server Hardening Framework </strong> — Ansible · nftables · Jinja2 · Linux Hardening · Threat Modeling · Infrastructure as Code</summary>
 
 <br>
 
