@@ -100,6 +100,33 @@ A Linux server configured as a complete software-defined network router. Built t
 📂 **Repository:** https://github.com/AKRAM857/Implementing-a-Linux-Router-with-DHCP-and-DNS-Services
 
 </details>
+---
+
+<details>
+<summary><strong>🔐 Secure Remote Administration via WireGuard VPN</strong> — WireGuard · VPN · nftables · Private DNS · Network Segmentation · Packet Analysis · Security Verification</summary>
+
+<br>
+
+A multi-VM network security architecture for securing remote administration across an untrusted network. The infrastructure uses a dedicated WireGuard gateway to control access to a private management network, with private DNS resolution and nftables enforcing the intended security boundaries.
+
+Unlike a conventional VPN configuration project, the security properties of the architecture are experimentally verified through controlled packet captures, port scans, routing analysis, and unauthorized-access scenarios.
+
+### What makes this different
+
+* Multi-VM segmented architecture — remote Client, simulated Internet Router/Observer, dedicated WireGuard Gateway, and private Management Server forming separate network segments and security boundaries
+* VPN-gated management access — administrative services remain on the private management network and are not directly exposed to the untrusted network
+* WireGuard encrypted overlay — public-key peer authentication and encrypted transport established between the remote client and VPN gateway
+* Private DNS through the tunnel — internal management names resolved only through the private DNS infrastructure, keeping management addressing and resolution off the untrusted network
+* nftables-enforced access control — stateful firewall policies on the WireGuard Gateway and Management Server restrict traffic according to the intended network architecture
+* Threat-model-driven verification — an observer positioned on the untrusted path is used to examine what network-level attackers can actually observe without cryptographic material
+* 10 controlled security experiments — packet captures, port scanning, incorrect-key testing, unauthorized-peer testing, AllowedIPs analysis, routing-table comparison, and packet structure analysis used to verify the architecture's behavior
+* Evidence-based security claims — each experiment produces packet captures, screenshots, observations, and conclusions documenting what was proven, what was not proven, and the limitations of the lab
+* Accompanied by a comprehensive technical report covering network architecture, L2/L3 networking, underlay and overlay networking, DNS, WireGuard internals, cryptographic foundations, firewall integration, verification methodology, and security analysis
+
+📂 **Repository:** https://github.com/AKRAM857/vpn-gated-remote-administration
+
+</details>
+
 
 ---
 
