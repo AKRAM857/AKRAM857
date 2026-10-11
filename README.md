@@ -101,33 +101,32 @@ A Linux server configured as a complete software-defined network router. Built t
 
 </details>
 ---
-
 <details>
-<summary><strong>🔐 Secure Remote Administration via WireGuard VPN</strong> — WireGuard · VPN · nftables · Private DNS · Network Segmentation · Packet Analysis · Security Verification</summary>
+<summary><strong>🔐 Zero Trust Remote Administration</strong> — WireGuard · DNS-over-TLS · Private CA · nftables · PKI · Network Segmentation · Packet Analysis · Security Verification</summary>
 
 <br>
 
-A multi-VM network security architecture for securing remote administration across an untrusted network. The infrastructure uses a dedicated WireGuard gateway to control access to a private management network, with private DNS resolution and nftables enforcing the intended security boundaries.
+A multi-VM network security architecture implementing Zero Trust remote administration. A remote client reaches a private management network through a dedicated WireGuard gateway, and all DNS resolution is encrypted end-to-end with DNS-over-TLS using a self-hosted Certificate Authority. Even the gateway — the only device exposed to the untrusted network — cannot read the DNS queries it forwards.
 
-Unlike a conventional VPN configuration project, the security properties of the architecture are experimentally verified through controlled packet captures, port scans, routing analysis, and unauthorized-access scenarios.
+Unlike a conventional VPN configuration project, the security properties of the architecture are experimentally verified through controlled packet captures, port scans, routing analysis, certificate validation, and unauthorized-access scenarios.
 
 ### What makes this different
 
-* Multi-VM segmented architecture — remote Client, simulated Internet Router/Observer, dedicated WireGuard Gateway, and private Management Server forming separate network segments and security boundaries
-* VPN-gated management access — administrative services remain on the private management network and are not directly exposed to the untrusted network
-* WireGuard encrypted overlay — public-key peer authentication and encrypted transport established between the remote client and VPN gateway
-* Private DNS through the tunnel — internal management names resolved only through the private DNS infrastructure, keeping management addressing and resolution off the untrusted network
-* nftables-enforced access control — stateful firewall policies on the WireGuard Gateway and Management Server restrict traffic according to the intended network architecture
-* Threat-model-driven verification — an observer positioned on the untrusted path is used to examine what network-level attackers can actually observe without cryptographic material
-* 10 controlled security experiments — packet captures, port scanning, incorrect-key testing, unauthorized-peer testing, AllowedIPs analysis, routing-table comparison, and packet structure analysis used to verify the architecture's behavior
+* Multi-VM segmented architecture — remote Client, simulated Internet Router/Observer, dedicated WireGuard Gateway, internal Router, and private DNS Server forming separate network segments and security boundaries
+* VPN-gated management access — administrative services remain on the private network and are not directly exposed to the untrusted network
+* WireGuard encrypted overlay — public-key peer authentication and encrypted transport established between the remote client and the VPN gateway
+* Self-hosted Certificate Authority — Root CA built from scratch, signing all internal certificates with a proper chain of trust
+* DNS-over-TLS (DoT) end-to-end encryption — BIND9 on port 853 with a CA-signed certificate, ensuring DNS queries remain confidential even through the gateway
+* Zero Trust DNS privacy — the WireGuard Gateway routes encrypted queries without ever seeing their contents, verified through packet captures
+* nftables-enforced access control — stateful firewall policies on the gateway, routers, and DNS server restrict traffic according to the intended architecture
+* Threat-model-driven verification — two adversaries considered: an external observer on the untrusted path, and a compromised gateway
+* 22 controlled security experiments — packet captures, port scanning, incorrect-key testing, unauthorized-peer testing, AllowedIPs analysis, certificate chain validation, DoT opacity verification, and more
 * Evidence-based security claims — each experiment produces packet captures, screenshots, observations, and conclusions documenting what was proven, what was not proven, and the limitations of the lab
-* Accompanied by a comprehensive technical report covering network architecture, L2/L3 networking, underlay and overlay networking, DNS, WireGuard internals, cryptographic foundations, firewall integration, verification methodology, and security analysis
+* Accompanied by a comprehensive technical report covering network architecture, L2/L3 networking, underlay/overlay networking, DNS, WireGuard internals, TLS/PKI internals, firewall integration, verification methodology, and Zero Trust analysis
 
-📂 **Repository:** https://github.com/AKRAM857/vpn-gated-remote-administration
+📂 **Repository:** https://github.com/AKRAM857/zero-trust-dot-vpn
 
 </details>
-
-
 ---
 
 ## ⚙️ Technical Stack
