@@ -102,29 +102,29 @@ A Linux server configured as a complete software-defined network router. Built t
 </details>
 ---
 <details>
-<summary><strong>🔐 Zero Trust Remote Administration</strong> — WireGuard · DNS-over-TLS · Private CA · nftables · PKI · Network Segmentation · Packet Analysis · Security Verification</summary>
+<summary><strong>🔐 Blind Gateway</strong> — WireGuard · DNS-over-TLS · Private CA · nftables · PKI · Network Segmentation · Packet Analysis · Security Verification</summary>
 
 <br>
 
-A multi-VM network security architecture implementing Zero Trust remote administration. A remote client reaches a private management network through a dedicated WireGuard gateway, and all DNS resolution is encrypted end-to-end with DNS-over-TLS using a self-hosted Certificate Authority. Even the gateway — the only device exposed to the untrusted network — cannot read the DNS queries it forwards.
+Remote administration over WireGuard where the VPN gateway cannot read your DNS. A remote client reaches a private management network through a dedicated WireGuard gateway, and its DNS queries are encrypted end-to-end with DNS-over-TLS using a self-hosted Certificate Authority. Even the gateway — the only device exposed to the untrusted network — decrypts the tunnel and still cannot read the DNS queries it forwards. The design applies zero-trust principles: no machine is trusted because of its network position, and every connection is authenticated cryptographically.
 
 Unlike a conventional VPN configuration project, the security properties of the architecture are experimentally verified through controlled packet captures, port scans, routing analysis, certificate validation, and unauthorized-access scenarios.
 
 ### What makes this different
 
-* Multi-VM segmented architecture — remote Client, simulated Internet Router/Observer, dedicated WireGuard Gateway, internal Router, and private DNS Server forming separate network segments and security boundaries
+* Multi-VM segmented architecture — five VMs and one container: a remote client, a router simulating the internet, a dedicated WireGuard gateway, an internal router, and a private DNS server, forming separate network segments and security boundaries
 * VPN-gated management access — administrative services remain on the private network and are not directly exposed to the untrusted network
 * WireGuard encrypted overlay — public-key peer authentication and encrypted transport established between the remote client and the VPN gateway
-* Self-hosted Certificate Authority — Root CA built from scratch, signing all internal certificates with a proper chain of trust
-* DNS-over-TLS (DoT) end-to-end encryption — BIND9 on port 853 with a CA-signed certificate, ensuring DNS queries remain confidential even through the gateway
-* Zero Trust DNS privacy — the WireGuard Gateway routes encrypted queries without ever seeing their contents, verified through packet captures
+* Self-hosted Certificate Authority — a Root CA built with OpenSSL in an isolated Docker container with no network, signing the DNS server's certificate with a proper chain of trust
+* DNS-over-TLS (DoT) end-to-end encryption — BIND9 on port 853 with a CA-signed certificate, keeping DNS queries confidential between the client and the DNS server, even through the gateway
+* A gateway that stays blind — the WireGuard gateway routes the encrypted queries without ever seeing their contents, verified through packet captures
 * nftables-enforced access control — stateful firewall policies on the gateway, routers, and DNS server restrict traffic according to the intended architecture
 * Threat-model-driven verification — two adversaries considered: an external observer on the untrusted path, and a compromised gateway
 * 22 controlled security experiments — packet captures, port scanning, incorrect-key testing, unauthorized-peer testing, AllowedIPs analysis, certificate chain validation, DoT opacity verification, and more
-* Evidence-based security claims — each experiment produces packet captures, screenshots, observations, and conclusions documenting what was proven, what was not proven, and the limitations of the lab
-* Accompanied by a comprehensive technical report covering network architecture, L2/L3 networking, underlay/overlay networking, DNS, WireGuard internals, TLS/PKI internals, firewall integration, verification methodology, and Zero Trust analysis
+* Evidence-based security claims — each experiment produces packet captures, screenshots, observations, and conclusions documenting what was proven, what was not proven, and the limitations of the project
+* Accompanied by a technical report covering the network architecture, WireGuard, PKI and TLS, DNS-over-TLS, firewall design, the verification methodology, and an analysis of what was and was not proven
 
-📂 **Repository:** https://github.com/AKRAM857/zero-trust-dot-vpn
+📂 **Repository:** https://github.com/AKRAM857/blind-gateway-wireguard-dot
 
 </details>
 ---
