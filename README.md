@@ -100,7 +100,9 @@ A Linux server configured as a complete software-defined network router. Built t
 📂 **Repository:** https://github.com/AKRAM857/Implementing-a-Linux-Router-with-DHCP-and-DNS-Services
 
 </details>
+
 ---
+
 <details>
 <summary><strong>🔐 Blind Gateway</strong> — WireGuard · DNS-over-TLS · Private CA · nftables · PKI · Network Segmentation · Packet Analysis · Security Verification</summary>
 
